@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, pink, #ff4d88);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #ff3366;
+}
+
+p {
+    color: gray;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff3366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #cc0044;
+}
+
+#result {
+    color: #ff3366;
+    margin-top: 25px;
+}
